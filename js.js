@@ -9,6 +9,7 @@ var ran_dom = false;
 var DanhSachChiSoNhac;
 var cur_index = 1;
 function setTimeInput(thoigian){
+    thoigian.video = this.video;
     
 }
 const btn = $('.icon__play i');
@@ -47,7 +48,7 @@ const arrList = [
         img:'assest/img/dungmimcuoinhuthe.png',
         author: 'MIN',
         name: 'Tren Tinh Ban Duoi Tinh Yeu',
-        video: 'assest/music/TrenTinhBanDuoiTinhYeu.mp3'
+        video: 'assest/music/TrenTinhBanDuoiTinhYeu-MIN.mp3'
     },
     {
         id:6,
